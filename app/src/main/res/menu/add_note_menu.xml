@@ -8,4 +8,10 @@
         android:title="Save"
         app:showAsAction="ifRoom" />
 
+    <item
+        android:id="@+id/export_item"
+        android:icon="@drawable/ic_export"
+        android:title="Export item"
+        app:showAsAction="ifRoom" />
+
 </menu>

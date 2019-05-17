@@ -32,8 +32,8 @@
         android:id="@+id/button_read"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:clickable="true"
         android:layout_gravity="right"
+        android:clickable="true"
         android:text="@string/btn_read" />
 
 </android.support.v7.widget.CardView>

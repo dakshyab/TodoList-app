@@ -1004,6 +1004,7 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable ic_add
 drawable ic_close
+drawable ic_export
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_mtrl_chip_checked_black
@@ -1064,6 +1065,7 @@ id blocking
 id bottom
 id buttonPanel
 id button_add_note
+id button_read
 id center
 id center_horizontal
 id center_vertical
@@ -1099,6 +1101,7 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
+id export_item
 id fill
 id fill_horizontal
 id fill_vertical
@@ -1356,6 +1359,7 @@ string abc_toolbar_collapse_description
 string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
+string btn_read
 string character_counter_content_description
 string character_counter_pattern
 string del_placeholder
