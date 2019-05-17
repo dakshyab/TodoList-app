@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">To Do List</string>
+    <string name="del_placeholder">Delete</string>
+    <string name="btn_read">Read</string>
 </resources>

@@ -1,4 +1,4 @@
-#Thu May 16 19:44:15 NPT 2019
-base.0=D\:\\all files\\British\\application project\\android\\TodoList mvvm\\TodoList\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
+#Fri May 17 23:15:47 NPT 2019
+base.0=C\:\\gitrepo\\TodoList Project\\TodoList\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
 path.0=classes.dex
 renamed.0=classes.dex

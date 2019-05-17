@@ -28,9 +28,9 @@ public class NoteDatabase_Impl extends NoteDatabase {
     final SupportSQLiteOpenHelper.Callback _openCallback = new RoomOpenHelper(configuration, new RoomOpenHelper.Delegate(1) {
       @Override
       public void createAllTables(SupportSQLiteDatabase _db) {
-        _db.execSQL("CREATE TABLE IF NOT EXISTS `note_table` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `title` TEXT, `describtion` TEXT, `priority` INTEGER NOT NULL)");
+        _db.execSQL("CREATE TABLE IF NOT EXISTS `note_table` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `title` TEXT, `describtion` TEXT)");
         _db.execSQL("CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)");
-        _db.execSQL("INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, \"fa1b0d56929957e3134894f31020dd91\")");
+        _db.execSQL("INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, \"b1cbc6f838e4d4e3f0d02052a92a3366\")");
       }
 
       @Override
@@ -60,11 +60,10 @@ public class NoteDatabase_Impl extends NoteDatabase {
 
       @Override
       protected void validateMigration(SupportSQLiteDatabase _db) {
-        final HashMap<String, TableInfo.Column> _columnsNoteTable = new HashMap<String, TableInfo.Column>(4);
+        final HashMap<String, TableInfo.Column> _columnsNoteTable = new HashMap<String, TableInfo.Column>(3);
         _columnsNoteTable.put("id", new TableInfo.Column("id", "INTEGER", true, 1));
         _columnsNoteTable.put("title", new TableInfo.Column("title", "TEXT", false, 0));
         _columnsNoteTable.put("describtion", new TableInfo.Column("describtion", "TEXT", false, 0));
-        _columnsNoteTable.put("priority", new TableInfo.Column("priority", "INTEGER", true, 0));
         final HashSet<TableInfo.ForeignKey> _foreignKeysNoteTable = new HashSet<TableInfo.ForeignKey>(0);
         final HashSet<TableInfo.Index> _indicesNoteTable = new HashSet<TableInfo.Index>(0);
         final TableInfo _infoNoteTable = new TableInfo("note_table", _columnsNoteTable, _foreignKeysNoteTable, _indicesNoteTable);
@@ -75,7 +74,7 @@ public class NoteDatabase_Impl extends NoteDatabase {
                   + " Found:\n" + _existingNoteTable);
         }
       }
-    }, "fa1b0d56929957e3134894f31020dd91", "e11d66b5a114fbfea4f793033c00199f");
+    }, "b1cbc6f838e4d4e3f0d02052a92a3366", "43630f01ccd464cc94ebccb98a81cc73");
     final SupportSQLiteOpenHelper.Configuration _sqliteConfig = SupportSQLiteOpenHelper.Configuration.builder(configuration.context)
         .name(configuration.name)
         .callback(_openCallback)

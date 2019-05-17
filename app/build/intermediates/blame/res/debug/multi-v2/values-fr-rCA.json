@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\all files\\British\\application project\\android\\TodoList mvvm\\TodoList\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fr-rCA\\values-fr-rCA.xml",
+            "outputFile": "C:\\gitrepo\\TodoList Project\\TodoList\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fr-rCA\\values-fr-rCA.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\srija\\.gradle\\caches\\transforms-2\\files-2.1\\04180cdaa3a76e3d96b14ebff35d861e\\res\\values-fr-rCA\\values-fr-rCA.xml",
+                    "source": "C:\\Users\\daksh\\.gradle\\caches\\transforms-2\\files-2.1\\34d073f86eadddb5d27670f6b7f64773\\res\\values-fr-rCA\\values-fr-rCA.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\srija\\.gradle\\caches\\transforms-2\\files-2.1\\ac101384991e4e1796049966a603bf62\\res\\values-fr-rCA\\values-fr-rCA.xml",
+                    "source": "C:\\Users\\daksh\\.gradle\\caches\\transforms-2\\files-2.1\\00737aa311991df9ba109dbea581479b\\res\\values-fr-rCA\\values-fr-rCA.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

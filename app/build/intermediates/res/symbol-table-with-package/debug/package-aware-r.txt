@@ -608,6 +608,7 @@ color cardview_shadow_start_color
 color colorAccent
 color colorPrimary
 color colorPrimaryDark
+color delRed
 color design_bottom_navigation_shadow_color
 color design_default_color_primary
 color design_default_color_primary_dark
@@ -1001,11 +1002,14 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable ic_add
+drawable ic_close
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_save
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
@@ -1059,6 +1063,7 @@ id beginning
 id blocking
 id bottom
 id buttonPanel
+id button_add_note
 id center
 id center_horizontal
 id center_vertical
@@ -1076,6 +1081,7 @@ id custom
 id customPanel
 id decor_content_parent
 id default_activity_button
+id delete_all_notes
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -1085,6 +1091,8 @@ id dimensions
 id direct
 id disableHome
 id edit_query
+id edit_text_description
+id edit_text_title
 id end
 id enterAlways
 id enterAlwaysCollapsed
@@ -1143,11 +1151,13 @@ id pin
 id progress_circular
 id progress_horizontal
 id radio
+id recycle_view
 id right
 id right_icon
 id right_side
 id save_image_matrix
 id save_non_transition_alpha
+id save_note
 id save_scale_type
 id screen
 id scroll
@@ -1198,6 +1208,8 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id text_input_password_toggle
+id text_view_description
+id text_view_title
 id textinput_counter
 id textinput_error
 id textinput_helper_text
@@ -1269,6 +1281,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_add_note
 layout activity_main
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -1286,6 +1299,7 @@ layout design_navigation_menu_item
 layout design_text_input_password_icon
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
+layout note_item
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big
@@ -1296,6 +1310,8 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+menu add_note_menu
+menu main_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 string abc_action_bar_home_description
@@ -1342,6 +1358,7 @@ string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
 string character_counter_content_description
 string character_counter_pattern
+string del_placeholder
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string hide_bottom_view_on_scroll_behavior

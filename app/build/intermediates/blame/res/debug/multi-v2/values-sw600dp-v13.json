@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\all files\\British\\application project\\android\\TodoList mvvm\\TodoList\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+            "outputFile": "C:\\gitrepo\\TodoList Project\\TodoList\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\srija\\.gradle\\caches\\transforms-2\\files-2.1\\57c5fd506c6752ad281ff993bc456d06\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\daksh\\.gradle\\caches\\transforms-2\\files-2.1\\3a525a413e61ccab015caa2399786131\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,10,11,12",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\srija\\.gradle\\caches\\transforms-2\\files-2.1\\ac101384991e4e1796049966a603bf62\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\daksh\\.gradle\\caches\\transforms-2\\files-2.1\\00737aa311991df9ba109dbea581479b\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
