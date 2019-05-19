@@ -49,12 +49,17 @@ public class NoteRead extends AppCompatActivity {
         read.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //String text = head.getText().toString()+"  "+desc.getText().toString();
-                String text = desc.getText().toString();
-                //mTTs.speak(text,TextToSpeech.QUEUE_FLUSH,null);
-                mTTs.speak(text, TextToSpeech.QUEUE_FLUSH,null,null);
+                speak();
             }
         });
+    }
+
+
+    private void speak(){
+        //String text = head.getText().toString()+"  "+desc.getText().toString();
+        String text = desc.getText().toString();
+        //mTTs.speak(text,TextToSpeech.QUEUE_FLUSH,null);
+        mTTs.speak(text, TextToSpeech.QUEUE_FLUSH,null,null);
     }
 
     @Override

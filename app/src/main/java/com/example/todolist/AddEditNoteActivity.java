@@ -111,7 +111,7 @@ public class AddEditNoteActivity extends AppCompatActivity {
         File file = new File(dir, filename);
         FileWriter fw = new FileWriter(file.getAbsoluteFile());
         BufferedWriter bw = new BufferedWriter(fw);
-        bw.write(exportDescription1);
+        bw.write(exportTitle1+ "\n"+ exportDescription1);
         bw.close();
         Toast.makeText(this,"File "+"'"+filename+"'"+" exported to "+dir,Toast.LENGTH_SHORT).show();
     }
